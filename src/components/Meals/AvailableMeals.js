@@ -23,8 +23,8 @@ const DUMMY_MEALS = [
   },
   {
     id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
+    name: 'Karjalanpiirakka',
+    description: 'Finnish traditional pie',
     price: 18.99,
   },
   {
