@@ -46,7 +46,12 @@ const Checkout = (props) => {
                         cityValid ;
 
     if (formIsValid) {
-
+        props.onConfirm({
+          name : enteredName,
+          street: enteredStreet,
+          city: enteredCity,
+          postalCode: enterdPostalCode
+        }) ;
     } else {
         return ;
     }
